@@ -65,7 +65,7 @@ MES provides:
 RDNA 2 iGPU uses UMA (system RAM). RX 9070 XT has dedicated 16 GB GDDR6:
 
 - VRAM accessed via PCI BAR (typically BAR 0, 256 MB visible window + resize BAR for full 16 GB)
-- Above-4GB BAR: `mapMmioRegion()` handles this, need bulk 2MB page mapping (Phase G2)
+- Above-4GB BAR: `mapMmioRegion()` handles this, need bulk 2MB page mapping (Phase 2000c)
 - VRAM allocator: simple bump or bitmap allocator for VRAM regions
 - Separate pools: VRAM (fast, GPU-local) and system RAM (slower, CPU-accessible via GTT)
 - Page table setup: GPU has its own page tables (GPUVM) — separate from CPU page tables
@@ -124,7 +124,7 @@ Linux kernel:
 ## Dependencies
 
 - Phases G6a-c (RDNA 2 bring-up — reuse PSP, ring, display framework)
-- Fornax Phase G2 (device mmap — VRAM BAR mapping with huge pages)
+- Fornax Phase 2000c (device mmap — VRAM BAR mapping with huge pages)
 
 ## Estimated Size
 

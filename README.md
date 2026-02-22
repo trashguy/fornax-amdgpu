@@ -62,7 +62,7 @@ AMD GPU firmware blobs are required but not included in this repo. Download from
 
 ## Dependencies
 
-Requires Fornax kernel phases G0-G4 (PCI enhancement, IOAPIC/MSI-X, device mmap, shared memory, IRQ forwarding) and Phase G5 (core GPU server framework).
+Requires Fornax kernel phases 2000a-2000e (PCI enhancement, IOAPIC/MSI-X, device mmap, shared memory, IRQ forwarding) and Phase 2000f (core GPU server framework).
 
 ## License
 

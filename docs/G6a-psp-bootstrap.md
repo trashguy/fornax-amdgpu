@@ -96,9 +96,9 @@ psp_13_0_*_ta.bin     — Trusted Applications (ASD, HDCP, DTM, RAP)
 
 ## Dependencies
 
-- Fornax Phase G0 (PCI — find AMD GPU device)
-- Fornax Phase G2 (device mmap — map VRAM BAR for IP Discovery + MMIO for PSP)
-- Fornax Phase G3 (shared memory — DMA buffers for firmware loading)
+- Fornax Phase 2000a (PCI — find AMD GPU device)
+- Fornax Phase 2000c (device mmap — map VRAM BAR for IP Discovery + MMIO for PSP)
+- Fornax Phase 2000d (shared memory — DMA buffers for firmware loading)
 
 ## Estimated Size
 

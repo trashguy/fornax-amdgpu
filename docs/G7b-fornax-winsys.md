@@ -119,7 +119,7 @@ Implement these callbacks:
 ## Dependencies
 
 - Phase G6a-c (working AMD GPU driver — command submission + display)
-- Fornax Phase G3 (shared memory — buffer backing + fence memory)
+- Fornax Phase 2000d (shared memory — buffer backing + fence memory)
 - Phase G7a (Mesa cross-compilation pipeline proven)
 
 ## Estimated Size

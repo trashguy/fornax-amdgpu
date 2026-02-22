@@ -104,8 +104,8 @@ eglSwapBuffers(dpy, surface);
 
 ## Dependencies
 
-- Fornax Phase G5 (core GPU server — provides `/dev/gpu/fb0`)
-- Fornax Phase G3 (shared memory — framebuffer backing)
+- Fornax Phase 2000f (core GPU server — provides `/dev/gpu/fb0`)
+- Fornax Phase 2000d (shared memory — framebuffer backing)
 - Fornax POSIX sysroot (musl libc, working POSIX realm)
 
 ## Estimated Size

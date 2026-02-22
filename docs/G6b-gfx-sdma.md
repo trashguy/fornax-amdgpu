@@ -110,8 +110,8 @@ sdma_5_2_*.bin
 ## Dependencies
 
 - Phase G6a (PSP — firmware loading infrastructure)
-- Fornax Phase G2 (device mmap — doorbell BAR access)
-- Fornax Phase G3 (shared memory — ring buffer + fence memory)
+- Fornax Phase 2000c (device mmap — doorbell BAR access)
+- Fornax Phase 2000d (shared memory — ring buffer + fence memory)
 
 ## Estimated Size
 

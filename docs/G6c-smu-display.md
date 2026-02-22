@@ -108,7 +108,7 @@ dmcub_dcn3*.bin
 
 - Phase G6a (PSP — firmware loading for SMU)
 - Phase G6b (GFX ring — needed for framebuffer blit operations)
-- Fornax Phase G2 (device mmap — DCN register access)
+- Fornax Phase 2000c (device mmap — DCN register access)
 
 ## Estimated Size
 

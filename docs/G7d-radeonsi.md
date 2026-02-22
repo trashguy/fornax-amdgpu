@@ -115,7 +115,7 @@ Chrome uses GPU acceleration via Wayland + EGL:
 - Phase G7c (ACO shader compiler — compiles shaders to GPU ISA)
 - Phase G7b (Fornax winsys — buffer alloc, command submit, fences)
 - Phase G6a-d (AMD GPU driver — hardware access)
-- All Fornax kernel prerequisites (G0-G5)
+- All Fornax kernel prerequisites (2000a-2000f)
 
 ## Estimated Size
 
