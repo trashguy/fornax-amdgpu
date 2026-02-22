@@ -1,0 +1,13 @@
+[package]
+name = "fornax-amdgpu"
+version = "0.1.0"
+description = "AMD GPU driver for Fornax OS (RDNA 2/4)"
+license = "MIT"
+
+[dependencies]
+fornax = { path = "../Fornax" }
+
+[install]
+# Replaces core gpud with AMD-capable version
+replace = ["srv/gpud"]
+firmware = "firmware/"
